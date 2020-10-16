@@ -7,7 +7,7 @@
 > node index.js 13800138000
 ```
 ### 注意
-此项目用了`puppeteer-core`，需要自行配置一下 [puppeteer.js](./utils/puppeteer.js) 的 `executablePath`，或者自行修改 [package.json](./package.json) 和[puppeteer.js](./utils/puppeteer.js) 的 `puppeteer-core` 为 `puppeteer`再重新安装。
+此项目用了`puppeteer-core`，需要自行配置一下 [puppeteer.js](./utils/puppeteer.js) 的 `executablePath`，或者自行修改 [package.json](./package.json) 和[puppeteer.js](./utils/puppeteer.js) 的 `puppeteer-core` 为 `puppeteer`。
 
 ## 效果
 ```
@@ -24,6 +24,6 @@
 
 ## 原理 && 介绍
 
-项目结构简单，主要使用了`pupeteer`和`request-promise` [idaily例子](./sites/qdaily.js)，到各大网站的注册或者登录页中撞手机号， 用以获取是否注册过的信息。
+项目结构简单，主要使用了`pupeteer`和`request-promise` [idaily 例子](./sites/qdaily.js)，到各大网站的注册或者登录页中撞手机号，获取手机号码是否注册过。
 
 ## 欢迎PR
