@@ -4,7 +4,8 @@
   "description": "查询手机号码注册过哪些网站",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js 13800138000"
+    "test": "node index.js 13800138000",
+    "testlast": "node testlast.js 13800138000"
   },
   "repository": "",
   "keywords": [],

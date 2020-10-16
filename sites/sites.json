@@ -28,5 +28,10 @@
         "key": "qdaily",
         "name": "好奇心日报",
         "enable": true
+    },
+    {
+        "key": "tuniu",
+        "name": "途牛",
+        "enable": true
     }
 ]
