@@ -33,5 +33,10 @@
         "key": "tuniu",
         "name": "途牛",
         "enable": true
+    },
+    {
+        "key": "dangdang",
+        "name": "当当网",
+        "enable": true
     }
 ]
