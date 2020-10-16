@@ -1,0 +1,32 @@
+[
+    {
+        "key": "xuexin",
+        "name": "学信网",
+        "enable": true
+    },
+    {
+        "key": "baidu",
+        "name": "百度",
+        "enable": true
+    },
+    {
+        "key": "sina",
+        "name": "新浪",
+        "enable": true
+    },
+    {
+        "key": "zhihu",
+        "name": "知乎",
+        "enable": false
+    },
+    {
+        "key": "csdn",
+        "name": "CSDN",
+        "enable": true
+    },
+    {
+        "key": "qdaily",
+        "name": "好奇心日报",
+        "enable": true
+    }
+]
