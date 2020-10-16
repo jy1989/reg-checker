@@ -25,7 +25,7 @@ async function checker(no) {
         uri: `http://www.qdaily.com/users/sign_in`,
         qs: {
             'user[remember_me]': '1',
-            'user[phone]': '13800138000',
+            'user[phone]': no,
             'user[password]': '123123',
             'authenticity_token': token,
             'commit': 'Log in'
