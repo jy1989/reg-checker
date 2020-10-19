@@ -38,5 +38,10 @@
         "key": "dangdang",
         "name": "当当网",
         "enable": true
+    },
+    {
+        "key": "pcauto",
+        "name": "太平洋汽车",
+        "enable": true
     }
 ]
