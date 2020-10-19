@@ -43,5 +43,10 @@
         "key": "pcauto",
         "name": "太平洋汽车",
         "enable": true
+    },
+    {
+        "key": "pptv",
+        "name": "PPTV",
+        "enable": true
     }
 ]
