@@ -48,5 +48,10 @@
         "key": "pptv",
         "name": "PPTV",
         "enable": true
+    },
+    {
+        "key": "taonan",
+        "name": "淘男网",
+        "enable": true
     }
 ]
