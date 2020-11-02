@@ -2,22 +2,20 @@ const rp = require('request-promise')
 async function checker(no) {
     var options = {
         method: 'post',
-        uri: `http://www.taonanw.com/?page=mobile_find_psd`,
-        qs: {
-
-            mobile: no
-        },
-        json: true
+        uri: `https://login.51job.com/ajax/checkinfo.php?value=${no}&nation=CN&type=mobile`
     };
 
     let result = await rp(options)
     //console.log(result)
+    result = result.replace('(', '')
+    result = result.replace(')', '')
+    result = JSON.parse(result)
     let isExist = true;
-    if (result == 'error_phone') {
+    if (result.result === 0) {
         isExist = false;
     }
     return {
-        msg: result,
+        msg: '',
         isExist
     }
 

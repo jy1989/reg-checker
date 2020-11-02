@@ -11,7 +11,7 @@ async function checker(no) {
 
 
     let { message } = await rp(options)
-    console.log(message);
+    //console.log(message);
     let isExist = false;
     if (message.indexOf('已存在此帐号') >= 0) {
         isExist = true;

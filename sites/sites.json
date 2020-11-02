@@ -53,5 +53,10 @@
         "key": "taonan",
         "name": "淘男网",
         "enable": true
+    },
+    {
+        "key": "51job",
+        "name": "前程无忧",
+        "enable": true
     }
 ]
