@@ -1,11 +1,12 @@
 var sites = require('./sites/sites.json');
 (async () => {
     let no = process.argv[2]
+    let singleSite = process.argv[3]
     console.log('号码 ' + no)
     //console.log(sites)
     for (let i in sites) {
         let { key, name, enable } = sites[i]
-        if (!enable) {
+        if (!enable || (singleSite && singleSite != key)) {
             continue;
         }
 

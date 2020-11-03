@@ -3,6 +3,16 @@
 
 ## 使用
 
+
+单网站
+```
+> node index.js 13800138000 baidu
+```
+```
+> node index.js 13800138000 meituan
+```
+
+全部运行
 ```
 > node index.js 13800138000
 ```
