@@ -13,7 +13,7 @@ async function checker(no) {
     let { message } = await rp(options)
     //console.log(message);
     let isExist = false;
-    if (message.indexOf('已存在此帐号') >= 0) {
+    if (message.indexOf('已存在此帐号') >= 0 || message.indexOf('已注册') >= 0) {
         isExist = true;
     }
     return {
