@@ -4,7 +4,7 @@ module.exports = {
     browser: async () => {
         //console.log(process.argv[1])
         return await puppeteer.launch({
-            headless: !(process.argv[1].indexOf('testlast') >= 0),
+            headless: !(process.argv[1].indexOf('test-last') >= 0),
             devtools: false,
             timeout: 0,
             executablePath: '/Applications/Chromium.app/Contents/MacOS/Chromium',
