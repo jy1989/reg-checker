@@ -63,5 +63,10 @@
         "key": "meituan",
         "name": "美团",
         "enable": true
+    },
+    {
+        "key": "docin",
+        "name": "豆丁网",
+        "enable": true
     }
 ]
