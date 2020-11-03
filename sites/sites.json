@@ -58,5 +58,10 @@
         "key": "51job",
         "name": "前程无忧",
         "enable": true
+    },
+    {
+        "key": "meituan",
+        "name": "美团",
+        "enable": true
     }
 ]
