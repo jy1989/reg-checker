@@ -1,5 +1,5 @@
 const { browser } = require('../utils/puppeteer.js');
-const { delay } = require('../utils/util.js');
+//const { delay } = require('../utils/util.js');
 var striptags = require('striptags');
 
 async function checker(no) {
