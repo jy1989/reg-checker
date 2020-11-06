@@ -10,7 +10,7 @@ var sites = require('./sites/sites.json');
     const { checker } = require('./sites/' + key);
     let result = await checker(no)
     let { msg, isExist } = result
-    console.log(`【${name}】 已注册:【${isExist ? '是' : '否'}】 信息【${msg}】`)
+    console.log(`【${name}-${key}】已注册:【${isExist ? '是' : '否'}】 信息【${msg}】`)
 
     //let isReg = await xuexin(no)
     //console.log(isReg)
