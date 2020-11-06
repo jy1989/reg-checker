@@ -35,9 +35,37 @@
 11【淘男网-taonan】 已注册:【否】 信息【error_phone】
 12【前程无忧-51job】 已注册:【是】 信息【】
 13【美团-meituan】 已注册:【是】 信息【该手机号已经注册，请直接登录或找回密码】
+14【豆丁网】 已注册:【否】 信息【此账号还未注册或验证】
 ```
 
 ## 原理 && 介绍
+
+```
+├── LICENSE
+├── README.md
+├── index.js
+├── package.json
+├── sites
+│   ├── 51job.js
+│   ├── baidu.js
+│   ├── csdn.js
+│   ├── dangdang.js
+│   ├── docin.js
+│   ├── meituan.js
+│   ├── pcauto.js
+│   ├── pptv.js
+│   ├── qdaily.js
+│   ├── sina.js
+│   ├── sites.json
+│   ├── taonan.js
+│   ├── tuniu.js
+│   ├── xuexin.js
+│   └── zhihu.js
+├── test-last.js
+└── utils
+    ├── puppeteer.js
+    └── util.js
+```
 
 项目结构简单，主要使用了`pupeteer`和`request-promise` [idaily 例子](./sites/qdaily.js)，到各大网站的注册或者登录页中撞手机号，获取手机号码是否注册过。
 

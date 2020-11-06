@@ -14,7 +14,7 @@ async function checker(no) {
 
     const navigationPromise = page.waitForNavigation()
 
-    await page.goto(`https://www.docin.com/app/findPassword`, { waitUntil: 'networkidle2', timeout: 10000 })
+    await page.goto(`https://www.docin.com/app/findPassword`, { waitUntil: 'networkidle2', timeout: 50000 })
     await navigationPromise
     await page.type('input[name=login_email]', no, { delay: 0 })
     await page.$eval("#form1 > div > div.fondPwdB > table > tbody > tr:nth-child(3) > td > input", element => element.click())
