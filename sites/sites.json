@@ -68,5 +68,10 @@
         "key": "docin",
         "name": "豆丁网",
         "enable": true
+    },
+    {
+        "key": "cjcp",
+        "name": "彩经网",
+        "enable": true
     }
 ]
